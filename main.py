@@ -7,6 +7,26 @@ from io import StringIO
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
+# --- New imports for Flask ---
+from flask import Flask
+from threading import Thread
+
+# --- Flask App Setup ---
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is alive!", 200
+
+def run_flask():
+    app.run(host='0.0.0.0', port=10000)
+
+# Start the Flask server in a separate thread
+flask_thread = Thread(target=run_flask)
+flask_thread.daemon = True
+flask_thread.start()
+
+
 # Enable logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
