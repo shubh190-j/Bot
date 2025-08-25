@@ -326,10 +326,7 @@ def main():
     # Get bot token from environment or replace with your token
     BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
     
-    if BOT_TOKEN == '8451659565:AAEYzwJmwuG6-rqgkVbEd_WXRzsKh4r3JkI':
-        print("❌ Please set your TELEGRAM_BOT_TOKEN environment variable")
-        print("Get your bot token from @BotFather on Telegram")
-        return
+    
     
     # Create application
     application = Application.builder().token(BOT_TOKEN).build()
