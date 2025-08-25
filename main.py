@@ -324,7 +324,7 @@ async def create_vcf_files(update: Update, context: ContextTypes.DEFAULT_TYPE, u
 def main():
     """Main function to run the bot"""
     # Get bot token from environment or replace with your token
-    BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8451659565:AAE3Nfw88Iv-BDcWNXcoBrsyN024XeXYxVg')
+    BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
     
     if BOT_TOKEN == 'YOUR_BOT_TOKEN_HERE':
         print("❌ Please set your TELEGRAM_BOT_TOKEN environment variable")
