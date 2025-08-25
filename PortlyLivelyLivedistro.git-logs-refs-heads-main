@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 90e0face5602c111186382eaddba8eb6e83b5c1b shubh Jha <46834619-shovak5203@users.noreply.replit.com> 1756048789 +0000	commit (initial): Initial commit
+90e0face5602c111186382eaddba8eb6e83b5c1b 2cf233a2830097d8bc06516c7ad2d86b17fe371b shubh Jha <46834619-shovak5203@users.noreply.replit.com> 1756049242 +0000	commit: Assistant checkpoint: Created Telegram VCF converter bot
+2cf233a2830097d8bc06516c7ad2d86b17fe371b cfdeeefb7dc87f6fc91257f6fbb10c271e303f0e shubh Jha <46834619-shovak5203@users.noreply.replit.com> 1756049561 +0000	commit: Assistant checkpoint: Set Telegram bot token
+cfdeeefb7dc87f6fc91257f6fbb10c271e303f0e 6fe466f96e940afe22f14ab2bc3c25ba3eb0c60f shubh Jha <46834619-shovak5203@users.noreply.replit.com> 1756105689 +0000	commit: Assistant checkpoint: Add custom VCF filename with contact ranges
+6fe466f96e940afe22f14ab2bc3c25ba3eb0c60f 00bcf2da6691a73ed03254638d335ce307761b69 shovak5203 <46834619-shovak5203@users.noreply.replit.com> 1756107773 +0000	commit: Checkpoint before assistant change: Add necessary libraries to enable new features and improve functionality
